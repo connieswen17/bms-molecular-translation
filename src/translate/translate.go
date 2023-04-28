@@ -6,6 +6,8 @@ import (
     "gocv.io/x/gocv"
 )
 
+// Good, now let's see if this does not get ignored
+
 // By Preprocess, we mean:
 //   + ensuring that the image is RGB
 //   + ensuring that the image is (inverted) White on Black
