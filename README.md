@@ -33,3 +33,6 @@ $ bin/translate
 </pre>
 
 This change should not trigger a github action
+
+This change, coupled with the comment in another file, should trigger
+the github action. 

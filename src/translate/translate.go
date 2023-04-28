@@ -6,6 +6,8 @@ import (
     "gocv.io/x/gocv"
 )
 
+// This change should trigger a github action
+
 // By Preprocess, we mean:
 //   + ensuring that the image is RGB
 //   + ensuring that the image is (inverted) White on Black
