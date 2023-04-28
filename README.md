@@ -40,3 +40,5 @@ the github action.
 Subsequent changes should trigger the github action, ignoring paths-ignore
 
 Now this change should not trigger the github action
+
+Good, the last change didn't do anything. Hopefully this change will be excluded as well
