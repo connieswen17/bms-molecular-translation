@@ -2,14 +2,14 @@ name: Experiment with paths-ignore
 
 on:
   push:
-    paths:
+    paths-ignore:
+      - 'README.md'
       - '**'
-      - '!README.md'
   pull_request:
     types: [open]
-    paths:
+    paths-ignore:
+      - 'README.md'
       - '**'
-      - '!README.md'
 jobs:
   echo-date:
     runs-on: ubuntu-latest
